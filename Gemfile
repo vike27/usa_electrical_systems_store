@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -15,7 +16,7 @@ gem 'rmagick', '2.14.0'
 
 
 group :development, :test do
-  gem 'sqlite3',     '1.3.9'
+  gem 'sqlite3'
 end
 
 
