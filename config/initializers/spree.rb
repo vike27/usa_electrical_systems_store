@@ -16,6 +16,7 @@ Spree.config do |config|
   config.logo = "logo.png"
 end
 
+
 attachment_config = {
 
   s3_credentials: {
