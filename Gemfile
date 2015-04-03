@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'rmagick', '2.14.0'
 
-gem 'aws-sdk'
+gem 'aws-sdk', '~> 1.61.0'
 
 group :development, :test do
   gem 'sqlite3'
